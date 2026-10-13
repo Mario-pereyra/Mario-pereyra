@@ -1,203 +1,115 @@
-<div align="center">
-
-  <!-- Cabecera animada (ajustada a width=850 para evitar cortes de texto) -->
-  <img src="[https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=850&lines=Mario+Alberto+Pereyra+Justiniano;Consultor+TOTVS+Protheus+(ADVPL+%C2%B7+SQL)+%7C+Backend+%26+IA+Aplicada;Estudiante+de+Ingenier%C3%ADa+de+Sistemas+%7C+Rumbo+a+FDE](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3B82F6&center=true&vCenter=true&width=850&lines=Mario+Alberto+Pereyra+Justiniano;Consultor+TOTVS+Protheus+(ADVPL+%C2%B7+SQL)+%7C+Backend+%26+IA+Aplicada;Estudiante+de+Ingenier%C3%ADa+de+Sistemas+%7C+Rumbo+a+FDE)" alt="Typing SVG" />
-
-  <h3>Consultor TOTVS Protheus (ADVPL · SQL) | Estudiante de Ingeniería de Sistemas | Backend e IA Aplicada</h3>
-  <p>📍 Santa Cruz de la Sierra, Bolivia • 🎯 Rumbo a <b>Forward Deployed Engineer (FDE)</b> & <b>Backend Developer</b> (abierto a Full Stack)</p>
-
-  <!-- Botones de contacto y estado actual -->
-  <p>
-    <a href="[https://www.linkedin.com/in/mario-pereyra-justiniano-86b205304](https://www.linkedin.com/in/mario-pereyra-justiniano-86b205304)" target="_blank">
-      <img src="[https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)" alt="LinkedIn" />
-    </a>
-    <a href="mailto:mario1w3p.j@gmail.com">
-      <img src="[https://img.shields.io/badge/Email-mario1w3p.j%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/Email-mario1w3p.j%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)" alt="Email" />
-    </a>
-    <img src="[https://img.shields.io/badge/Rol_Actual-Consultor_TOTVS_Protheus-10B981?style=for-the-badge](https://img.shields.io/badge/Rol_Actual-Consultor_TOTVS_Protheus-10B981?style=for-the-badge)" alt="Rol Actual" />
-    <img src="[https://img.shields.io/badge/Formaci%C3%B3n-7.%C2%BA_Semestre_Ing._Sistemas-6366F1?style=for-the-badge](https://img.shields.io/badge/Formaci%C3%B3n-7.%C2%BA_Semestre_Ing._Sistemas-6366F1?style=for-the-badge)" alt="Formación" />
-  </p>
-</div>
-
-<br/>
-
-<!-- ================= BENTO GRID: LOS 3 PILARES ================= -->
-<h2 align="center">⚡ Pilares de Ingeniería: Negocio + Código + IA Aplicada</h2>
-
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h3 align="center">🏢 1. Negocio + ERP en Producción</h3>
-      <p align="center">
-        <img src="[https://img.shields.io/badge/TOTVS_Protheus-SIGAFAT_%7C_SIGACOM-0089A7?style=flat-square](https://img.shields.io/badge/TOTVS_Protheus-SIGAFAT_%7C_SIGACOM-0089A7?style=flat-square)" />
-      </p>
-      <ul>
-        <li><b>Despliegue con clientes reales:</b> 1 año como Consultor en <b>Resultar Soluciones SRL</b> implementando el ERP TOTVS Protheus en empresas de Bolivia y del exterior.</li>
-        <li><b>Traducción operativa:</b> Relevamiento directo con el cliente y conversión de procesos de <b>Facturación</b> y <b>Compras</b> a parametrización del sistema.</li>
-        <li><b>Crecimiento proyectado:</b> Facturación electrónica del SIN (<b>SIAT</b>).</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">⚙️ 2. Backend & Datos</h3>
-      <p align="center">
-        <img src="[https://img.shields.io/badge/Core-ADVPL_%7C_SQL_%7C_TS-3178C6?style=flat-square](https://img.shields.io/badge/Core-ADVPL_%7C_SQL_%7C_TS-3178C6?style=flat-square)" />
-      </p>
-      <ul>
-        <li><b>Lógica empresarial:</b> Desarrollo en <b>ADVPL</b> y consultas avanzadas sobre <b>SQL Server</b> y <b>PostgreSQL</b>.</li>
-        <li><b>Resolución en caliente:</b> Diagnóstico y corrección de errores y bugs del sistema junto a consultores senior.</li>
-        <li><b>Desarrollo Web:</b> Construcción de aplicaciones y herramientas con <b>TypeScript</b>, <b>JavaScript</b>, <b>HTML</b> y <b>CSS</b>.</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">🤖 3. IA Aplicada & Agentes</h3>
-      <p align="center">
-        <img src="[https://img.shields.io/badge/Protocol-Model_Context_Protocol-8B5CF6?style=flat-square](https://img.shields.io/badge/Protocol-Model_Context_Protocol-8B5CF6?style=flat-square)" />
-      </p>
-      <ul>
-        <li><b>Servidores MCP:</b> Desarrollo de servidores <i>Model Context Protocol</i> que conectan agentes de IA con herramientas y fuentes de datos.</li>
-        <li><b>Integración de LLMs:</b> Consumo e integración de APIs de <b>DeepSeek</b> y <b>GLM</b>.</li>
-        <li><b>Flujo Agentic Avanzado:</b> Desarrollo asistido con <b>Claude Code</b>, <b>Codex</b>, <b>OpenCode</b> y <b>Pi agent</b>.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<!-- ================= ARQUITECTURA MERMAID: ENFOQUE FDE ================= -->
-<h2 align="center">🔄 Arquitectura de Trabajo — Por qué encajo como Forward Deployed Engineer (FDE)</h2>
-
-<p align="center">
-  <i>Como consultor ya ejecuto trabajo de despliegue en terreno con el cliente; sumado a desarrollo backend e IA aplicada, cierro el ciclo completo desde el requerimiento hasta la producción:</i>
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/portada-oscuro.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/portada-claro.svg">
+  <img alt="Mario Alberto Pereyra Justiniano, desarrollador en Santa Cruz de la Sierra, Bolivia. Del requerimiento del cliente al código en producción. Consultor TOTVS Protheus y estudiante de 7.º semestre de Ingeniería de Sistemas." src="assets/portada-claro.svg" width="100%">
+</picture>
 </p>
 
+<p>
+<a href="https://mario-pereyra.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/boton-portafolio-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/boton-portafolio-claro.svg"><img alt="Portafolio" src="assets/boton-portafolio-claro.svg" height="40"></picture></a>&nbsp;
+<a href="https://mario-pereyra.github.io/cv/CV_Mario_Pereyra_Justiniano.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/boton-cv-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/boton-cv-claro.svg"><img alt="Descargar CV" src="assets/boton-cv-claro.svg" height="40"></picture></a>&nbsp;
+<a href="https://www.linkedin.com/in/mario-pereyra-justiniano-86b205304"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/boton-linkedin-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/boton-linkedin-claro.svg"><img alt="LinkedIn" src="assets/boton-linkedin-claro.svg" height="40"></picture></a>&nbsp;
+<a href="mailto:mario1w3p.j@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/boton-correo-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/boton-correo-claro.svg"><img alt="Correo: mario1w3p.j@gmail.com" src="assets/boton-correo-claro.svg" height="40"></picture></a>
+</p>
+
+Desarrollador y estudiante de 7.º semestre de Ingeniería de Sistemas en la Universidad NUR. Desde octubre de 2025 soy consultor TOTVS Protheus en Resultar Soluciones SRL: relevo requerimientos con el cliente, parametrizo el ERP y programo en AdvPL y SQL lo que el estándar no cubre. Fuera del ERP construyo aplicaciones web con TypeScript y herramientas que conectan agentes de IA con datos empresariales.
+
+**Hacia dónde voy:** backend y *Forward Deployed Engineering*. Como consultor ya trabajo junto al cliente: relevo su proceso, lo configuro, acompaño la salida en vivo y corrijo errores. A eso le sumo backend e IA aplicada.
+
+### Qué hago
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/resumen-oscuro.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/resumen-claro.svg">
+  <img alt="Tres pilares. 01 Desarrollo: aplicaciones web con TypeScript, React, Node.js y PostgreSQL; Vintage Secret’s está en producción. 02 Software empresarial: personalizo el ERP TOTVS Protheus con AdvPL y SQL en Resultar, desde octubre de 2025. 03 IA aplicada: conecto agentes de IA a bases de Protheus en solo lectura con MCP. En Resultar: 4 empresas cliente con mis desarrollos, 8 programas nuevos en AdvPL, 20 archivos fuente modificados, 10 correcciones de errores y 1 salida en vivo." src="assets/resumen-claro.svg" width="100%">
+</picture>
+
+<sub>Cifras de código según el historial de git, de enero a octubre de 2026. Sin nombres de clientes, por confidencialidad.</sub>
+
+### Del proceso del cliente al código
+
 ```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1e293b', 'primaryTextColor': '#f8fafc', 'primaryBorderColor': '#3b82f6', 'lineColor': '#10b981', 'secondaryColor': '#0f172a', 'tertiaryColor': '#1e1b4b'}}}%%
 flowchart LR
-    subgraph CLIENTE ["1. Operaciones del Cliente"]
-        A["Relevamiento de Requerimientos"] --> B["Procesos de Negocio<br/>(Facturación y Compras)"]
-    end
+    R(["Requerimiento<br/>del cliente"]):::cliente --> P["Relevamiento y<br/>parametrización · SIGAFAT"]:::erp
+    I(["Incidencia"]):::cliente --> D["Diagnóstico"]:::codigo
+    P --> C["Personalización<br/>en AdvPL + SQL"]:::codigo
+    D -->|corrección| C
+    C -->|salida en vivo| B[("Protheus<br/>SQL Server · PostgreSQL")]:::erp
+    A(["Agente de IA"]):::ia -.-> M["protheus-db-mcp<br/>4 capas de solo lectura"]:::ia
+    M -.->|SELECT| B
 
-    subgraph INGENIERIA ["2. Ingeniería y ERP (Backend / Datos)"]
-        B --> C["Parametrización TOTVS Protheus<br/>(SIGAFAT · SIGACOM)"]
-        B --> D["Desarrollo y Consultas<br/>(ADVPL · SQL Server · PostgreSQL)"]
-        D --> E["Corrección de Bugs y<br/>Lógica en TypeScript / JS"]
-    end
-
-    subgraph IA ["3. Capa de IA Aplicada"]
-        F["Servidores MCP<br/>(Herramientas y Datos)"] <--> D
-        G["APIs DeepSeek y GLM +<br/>Agentes (Claude Code / Codex)"] --> E
-    end
-
-    C --> H(("Solución en<br/>Producción"))
-    E --> H
+    classDef cliente fill:transparent,stroke:#8b949e,stroke-width:1px
+    classDef erp fill:transparent,stroke:#c99a4a,stroke-width:1.5px
+    classDef codigo fill:transparent,stroke:#2aa898,stroke-width:1.5px
+    classDef ia fill:transparent,stroke:#8b7cf0,stroke-width:1.5px
 ```
 
-<br/>
+A la izquierda llega el trabajo: requerimientos e incidencias. Al centro está lo que hago en Protheus. Abajo, cómo un agente de IA consulta esa misma base sin poder escribir en ella.
 
-<!-- ================= MATRIZ DE STACK TÉCNICO ================= -->
-<h2 align="center">🛠️ Matriz de Stack Técnico (Clasificado por Nivel Real)</h2>
+### Proyectos
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🔥 Nivel Principal (Producción & Proyectos)</h3>
-      <p align="center"><i>Demostrado en consultoría ERP (Resultar Soluciones) y proyectos personales</i></p>
-      <div align="center">
-        <p><b>Lenguajes Core & ERP</b></p>
-        <img src="[https://img.shields.io/badge/ADVPL-TOTVS_Protheus-0089A7?style=for-the-badge](https://img.shields.io/badge/ADVPL-TOTVS_Protheus-0089A7?style=for-the-badge)" alt="ADVPL" />
-        <img src="[https://img.shields.io/badge/SQL-Consultas_&_Datos-CC2927?style=for-the-badge&logo=postgresql&logoColor=white](https://img.shields.io/badge/SQL-Consultas_&_Datos-CC2927?style=for-the-badge&logo=postgresql&logoColor=white)" alt="SQL" />
-        <br/><br/>
-        <img src="[https://skillicons.dev/icons?i=ts,js,html,css&theme=dark](https://skillicons.dev/icons?i=ts,js,html,css&theme=dark)" alt="TS JS HTML CSS" />
-        <p><b>Bases de Datos Relacionales</b></p>
-        <img src="[https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)" alt="SQL Server" />
-        <img src="[https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)" alt="PostgreSQL" />
-      </div>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🤖 Ecosistema IA & Radar de Lenguajes</h3>
-      <p align="center"><i>Uso avanzado de agentes de codificación y niveles progresivos</i></p>
-      <div align="center">
-        <p><b>Protocolos, APIs y Agentes de IA (Nivel Avanzado)</b></p>
-        <img src="[https://img.shields.io/badge/MCP-Servidores_Model_Context_Protocol-8B5CF6?style=for-the-badge](https://img.shields.io/badge/MCP-Servidores_Model_Context_Protocol-8B5CF6?style=for-the-badge)" alt="MCP" />
-        <br/>
-        <img src="[https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)" alt="Claude Code" />
-        <img src="[https://img.shields.io/badge/Codex-10A37F?style=flat-square&logo=openai&logoColor=white](https://img.shields.io/badge/Codex-10A37F?style=flat-square&logo=openai&logoColor=white)" alt="Codex" />
-        <img src="[https://img.shields.io/badge/OpenCode-2563EB?style=flat-square](https://img.shields.io/badge/OpenCode-2563EB?style=flat-square)" alt="OpenCode" />
-        <img src="[https://img.shields.io/badge/Pi_Agent-059669?style=flat-square](https://img.shields.io/badge/Pi_Agent-059669?style=flat-square)" alt="Pi Agent" />
-        <img src="[https://img.shields.io/badge/DeepSeek_API-4D6BFE?style=flat-square](https://img.shields.io/badge/DeepSeek_API-4D6BFE?style=flat-square)" alt="DeepSeek" />
-        <img src="[https://img.shields.io/badge/GLM_API-00A67E?style=flat-square](https://img.shields.io/badge/GLM_API-00A67E?style=flat-square)" alt="GLM" />
-        <hr/>
-        <p><b>Lenguajes de Uso Ocasional</b></p>
-        <img src="[https://skillicons.dev/icons?i=py&theme=dark](https://skillicons.dev/icons?i=py&theme=dark)" height="38" alt="Python" />
-        <br/>
-        <code>Python (Uso ocasional)</code>
-        <p><b>Lenguajes en Exploración</b></p>
-        <img src="[https://skillicons.dev/icons?i=rust,go,java&theme=dark](https://skillicons.dev/icons?i=rust,go,java&theme=dark)" height="38" alt="Rust Go Java" />
-        <br/>
-        <code>Rust · Go · Java (En etapa de exploración)</code>
-      </div>
-    </td>
-  </tr>
-</table>
+<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/figura-oscuro.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/figura-claro.svg">
+  <img alt="Figura 1: protheus-db-mcp como un banco de pruebas. Un carro lleva una consulta SELECT por cuatro estaciones antes de llegar a la base del ERP: 01 guardia léxica, un analizador por dialecto que solo deja pasar SELECT o WITH; 02 transacción de solo lectura, que SQL Server revierte siempre y PostgreSQL y Oracle abren en READ ONLY; 03 límites de 500 filas por defecto (máximo 5000) y 30 segundos (máximo 300); 04 una cuenta con permisos solo de SELECT. Vuelve con filas, sin escribir nada." src="assets/figura-claro.svg" width="100%">
+</picture>
+</p>
 
-<br/>
+**protheus-db-mcp** · servidor MCP en TypeScript · código privado  
+Da a agentes de IA (Claude Code, Cursor, Windsurf, Antigravity) consultas de solo lectura sobre bases de Protheus en SQL Server, PostgreSQL y Oracle. Expone 5 herramientas: listar perfiles sin mostrar credenciales, probar la conexión, ejecutar una consulta, describir una tabla con el diccionario SX3 y listar tablas. Tiene 8 archivos de prueba.
 
-<!-- ================= TRAYECTORIA & TELEMETRÍA EN CONSOLA ================= -->
-<h2 align="center">💼 Experiencia Laboral y Formación Académica</h2>
+<p><a href="https://vintage.marioelprogamer710.workers.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyecto-vintage-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proyecto-vintage-claro.svg"><img alt="Vintage Secret’s, emprendimiento familiar en producción: catálogo de carteras y panel de inventario con rentabilidad por lote y por proveedor. React Router, TypeScript, Cloudflare Workers y PostgreSQL. Cada push a main pasa por typecheck, 16 archivos de prueba, build, migraciones de Prisma y despliegue en Workers." src="assets/proyecto-vintage-claro.svg" width="33.33%"></picture></a><a href="https://quinela-mundialera-frontend.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyecto-quiniela-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proyecto-quiniela-claro.svg"><img alt="Quiniela Mundial 2026, proyecto universitario en equipo de 2. Mi aporte: la sincronización con TheSportsDB, con 78 partidos reales, y el frontend inicial en React. NestJS, PostgreSQL, React, Leaflet y Docker." src="assets/proyecto-quiniela-claro.svg" width="33.33%"></picture></a><a href="https://github.com/Mario-pereyra/practico4"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/proyecto-cine-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/proyecto-cine-claro.svg"><img alt="Cine Reservas, proyecto universitario: reserva de asientos con control de concurrencia en la base de datos, para que dos solicitudes no reserven el mismo asiento. NestJS, TypeORM, PostgreSQL, React y Docker." src="assets/proyecto-cine-claro.svg" width="33.33%"></picture></a></p>
 
-```diff
-@@ CONSULTOR TOTVS PROTHEUS | Resultar Soluciones SRL (Oct 2025 – Presente • 1 año) @@
-! Santa Cruz de la Sierra, Bolivia | Clientes en Bolivia y del exterior
-+ Implementación y parametrización del ERP brasileño TOTVS Protheus en etapa de despliegue.
-+ Especialización principal en el módulo de Facturación (SIGAFAT) y apoyo en Compras (SIGACOM).
-+ Relevamiento de requerimientos e interacción directa con el cliente para traducir procesos de negocio al ERP.
-+ Desarrollo en lenguaje ADVPL y ejecución de consultas SQL sobre SQL Server y PostgreSQL.
-+ Diagnóstico, corrección de errores/bugs del sistema y soporte directo a consultores senior en proyectos activos.
+<sub><b>Vintage Secret’s:</b> <a href="https://vintage.marioelprogamer710.workers.dev">demo</a> · <a href="https://github.com/Mario-pereyra/vintage">código</a> &nbsp;&nbsp; <b>Quiniela:</b> <a href="https://quinela-mundialera-frontend.vercel.app">demo</a> · <a href="https://github.com/PabloArauzCaballero/QuinelaMundialeraBackend">backend</a> · <a href="https://github.com/PabloArauzCaballero/QuinelaMundialeraFrontend">frontend</a> &nbsp;&nbsp; <b>Cine Reservas:</b> <a href="https://github.com/Mario-pereyra/practico4">código</a></sub>
 
-@@ FORMACIÓN UNIVERSITARIA | Universidad NUR (Egreso estimado: Septiembre 2027) @@
-! Carrera: Estudiante de Ingeniería de Sistemas — Cursando mediados del 7.º Semestre (Octubre 2026)
-+ Idiomas: Español (Nativo) | Inglés (Básico — en plan de mejora continua para roles FDE remotos).
-```
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/desplegable-proyectos-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/desplegable-proyectos-claro.svg"><img alt="Más proyectos: Flowy ERP, Impulsame, AstroMarket y una CLI de SQL" src="assets/desplegable-proyectos-claro.svg" height="40" align="absmiddle"></picture></summary>
 
-<br/>
+- **Módulo de Contabilidad de Flowy ERP** · universidad, equipo de 4 · [repo](https://github.com/MarcoMelgar10/Modulo_activo_fijos)  
+  Mi aporte, con la cuenta `Mario1w3`: el dashboard fiscal y los libros de Compras y Ventas (+1.176 líneas), sus pruebas, la preparación para el despliegue y la documentación de endpoints. Express, Sequelize, MySQL, Redis, React, Jest y Docker.
+- **Impulsame** · plataforma de crowdfunding · [repo](https://github.com/Mario-pereyra/Proyecto_Final_Web_02-2025)  
+  Node.js, Express, PostgreSQL, Docker y pasarela de pagos. 87 commits.
+- **AstroMarket** · marketplace de tecnología · [repo](https://github.com/Mario-pereyra/Proyecto-final-Web)  
+  Node.js, Express y MySQL. 41 commits.
+- **CLI de SQL de solo lectura** · `cli-msql-personalizada` · código privado  
+  CLI en Python sobre `go-sqlcmd`, con control de solo lectura y varios clientes; CI, release v1.2.0 y 10 archivos de prueba. Es el antecesor de protheus-db-mcp.
 
-<!-- ================= PROYECTOS EN CONSTRUCCIÓN (BENTO CARDS) ================= -->
-<h2 align="center">🚀 Laboratorio de Proyectos</h2>
+</details>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔌 Servidores MCP (Model Context Protocol)</h3>
-      <p>
-        <img src="[https://img.shields.io/badge/Arquitectura-IA_&_Herramientas-8B5CF6?style=flat-square](https://img.shields.io/badge/Arquitectura-IA_&_Herramientas-8B5CF6?style=flat-square)" />
-        <img src="[https://img.shields.io/badge/Estado-En_Desarrollo-10B981?style=flat-square](https://img.shields.io/badge/Estado-En_Desarrollo-10B981?style=flat-square)" />
-      </p>
-      <p>Desarrollo de servidores bajo el estándar <b>Model Context Protocol (MCP)</b> diseñados para conectar agentes autónomos de IA con herramientas locales, APIs y fuentes de datos estructurados.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛍️ Plataforma Web — Venta de Carteras</h3>
-      <p>
-        <img src="[https://img.shields.io/badge/Tipo-E--Commerce_Real-3B82F6?style=flat-square](https://img.shields.io/badge/Tipo-E--Commerce_Real-3B82F6?style=flat-square)" />
-        <img src="[https://img.shields.io/badge/Estado-En_Desarrollo-F59E0B?style=flat-square](https://img.shields.io/badge/Estado-En_Desarrollo-F59E0B?style=flat-square)" />
-      </p>
-      <p>Sitio web comercial enfocado en digitalizar el catálogo y flujo de ventas para el emprendimiento de carteras de mi madre.</p>
-    </td>
-  </tr>
-</table>
+### Stack
 
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-oscuro.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stack-claro.svg">
+  <img alt="Stack por nivel. Avanzado: HTML y CSS; agentes de codificación (Claude Code, Codex, OpenCode, Pi agent) y APIs de DeepSeek y GLM. Intermedio: JavaScript, TypeScript, SQL, AdvPL, Java; Node.js, Express, Sequelize, TypeORM; React, React Router; SQL Server, PostgreSQL; Git, Docker, Vercel, Cloudflare Workers y R2; servidores MCP; Protheus Facturación (SIGAFAT). Básico: Python, Go, Kotlin; NestJS, Prisma; Angular, Next.js, Tailwind CSS; MySQL, Redis; GitHub Actions, Vitest, Jest; Protheus Compras (SIGACOM)." src="assets/stack-claro.svg" width="100%">
+</picture>
 
-<!-- ================= DASHBOARD DE ESTADÍSTICAS (GHSTATS.DEV) ================= -->
-<h2 align="center">📊 Telemetría de GitHub</h2>
+<sub>Niveles según mi autoevaluación de octubre de 2026. Los agentes de codificación que uso: Claude Code, Codex, OpenCode y Pi agent.</sub>
 
-<div align="center">
-  <!-- Tarjeta principal de ghstats.dev -->
-  <img src="[https://ghstats.dev/api/card?username=Mario-pereyra&theme=tokyonight](https://ghstats.dev/api/card?username=Mario-pereyra&theme=tokyonight)" alt="Mario's GitHub Stats" />
-</div>
+<details>
+<summary><picture><source media="(prefers-color-scheme: dark)" srcset="assets/desplegable-experiencia-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/desplegable-experiencia-claro.svg"><img alt="Experiencia y formación: Resultar, Universidad NUR e idiomas" src="assets/desplegable-experiencia-claro.svg" height="40" align="absmiddle"></picture></summary>
 
-<br/>
+**Resultar Soluciones SRL** · Consultor TOTVS Protheus · Santa Cruz de la Sierra · oct. 2025 – hoy
 
-<div align="center">
-  <sub>⚡ <b>Disponibilidad:</b> Actualmente empleado en Resultar Soluciones SRL • Modalidad y horario a coordinar según la oferta para roles de <b>Forward Deployed Engineer (FDE)</b>, <b>Backend</b> o <b>Full Stack</b>.</sub>
-</div>
+- Programo en AdvPL y escribo consultas SQL sobre SQL Server y PostgreSQL. De enero a octubre de 2026 hice personalizaciones para 4 empresas cliente: 8 programas nuevos y cambios en otros 20 archivos fuente (reportes, puntos de entrada y rutinas), la mayoría de Facturación.
+- Diagnostico y corrijo errores: 10 correcciones sobre 9 archivos fuente en 3 empresas cliente, entre ellas el flujo de facturación con cobranza automática.
+- Parametrizo Protheus en las implementaciones: sobre todo Facturación (SIGAFAT), con foco en el pedido de venta, y en menor medida Compras (SIGACOM).
+- Relevo requerimientos con el cliente, traduzco sus procesos a la configuración del sistema y apoyo a los consultores senior. Participé en 1 salida en vivo.
+
+**Universidad NUR** · Ingeniería de Sistemas · 7.º semestre · egreso estimado en septiembre de 2027
+
+- Proyecto de grado en curso: un agente de IA para consultores TOTVS Protheus, en modalidad de Trabajo Dirigido en Resultar. Hoy está en la etapa del documento académico.
+
+**Idiomas** · español nativo · inglés básico (A1–A2), con lectura en B1
+
+</details>
+
+<br>
+
+<a href="https://github.com/Mario-pereyra/Mario-pereyra/tree/main/scripts"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pie-oscuro.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/pie-claro.svg">
+  <img alt="Mario Alberto Pereyra Justiniano, Santa Cruz de la Sierra, Bolivia. Los gráficos de este README son SVG generados con código en scripts/generar.mjs." src="assets/pie-claro.svg" width="100%">
+</picture></a>
