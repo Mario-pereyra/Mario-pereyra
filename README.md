@@ -30,14 +30,14 @@ Desarrollador y estudiante de 7.º semestre de Ingeniería de Sistemas en la Uni
 ### Del proceso del cliente al código
 
 ```mermaid
-flowchart LR
-    R(["Requerimiento<br/>del cliente"]):::cliente --> P["Relevamiento y<br/>parametrización · SIGAFAT"]:::erp
+flowchart TB
+    R(["Requerimiento"]):::cliente --> P["Relevamiento y<br/>parametrización"]:::erp
     I(["Incidencia"]):::cliente --> D["Diagnóstico"]:::codigo
-    P --> C["Personalización<br/>en AdvPL + SQL"]:::codigo
+    A(["Agente de IA"]):::ia -.-> M["protheus-db-mcp"]:::ia
+    P --> C["AdvPL + SQL"]:::codigo
     D -->|corrección| C
-    C -->|salida en vivo| B[("Protheus<br/>SQL Server · PostgreSQL")]:::erp
-    A(["Agente de IA"]):::ia -.-> M["protheus-db-mcp<br/>4 capas de solo lectura"]:::ia
-    M -.->|SELECT| B
+    C -->|salida en vivo| B[("Protheus")]:::erp
+    M -.->|solo lectura| B
 
     classDef cliente fill:transparent,stroke:#8b949e,stroke-width:1px
     classDef erp fill:transparent,stroke:#c99a4a,stroke-width:1.5px
@@ -45,7 +45,7 @@ flowchart LR
     classDef ia fill:transparent,stroke:#8b7cf0,stroke-width:1.5px
 ```
 
-A la izquierda llega el trabajo: requerimientos e incidencias. Al centro está lo que hago en Protheus. Abajo, cómo un agente de IA consulta esa misma base sin poder escribir en ella.
+Arriba llega el trabajo: requerimientos e incidencias. En el medio está lo que hago en Protheus: relevamiento, parametrización de Facturación (SIGAFAT) y código en AdvPL y SQL. A la derecha, un agente de IA consulta esa misma base con protheus-db-mcp, en solo lectura.
 
 ### Proyectos
 
