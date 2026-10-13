@@ -33,7 +33,7 @@ Desarrollador y estudiante de 7.º semestre de Ingeniería de Sistemas en la Uni
 flowchart TB
     R(["Requerimiento"]):::cliente --> P["Relevamiento y<br/>parametrización"]:::erp
     I(["Incidencia"]):::cliente --> D["Diagnóstico"]:::codigo
-    A(["Agente de IA"]):::ia -.-> M["protheus-db-mcp"]:::ia
+    A(["Agente de IA"]):::ia -.-> M["protheus‑db‑mcp"]:::ia
     P --> C["AdvPL + SQL"]:::codigo
     D -->|corrección| C
     C -->|salida en vivo| B[("Protheus")]:::erp
