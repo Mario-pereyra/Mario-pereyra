@@ -108,8 +108,10 @@ Da a agentes de IA (Claude Code, Cursor, Windsurf, Antigravity) consultas de sol
 
 <br>
 
+<p>
 <a href="https://github.com/Mario-pereyra/Mario-pereyra/tree/main/scripts"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/pie-oscuro.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/pie-claro.svg">
   <img alt="Mario Alberto Pereyra Justiniano, Santa Cruz de la Sierra, Bolivia. Los gráficos de este README son SVG generados con código en scripts/generar.mjs." src="assets/pie-claro.svg" width="100%">
 </picture></a>
+</p>
