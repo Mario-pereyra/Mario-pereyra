@@ -2,13 +2,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-oscuro.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-claro.svg">
-  <img alt="mario.yml abierto en vim: Mario Alberto Pereyra Justiniano, desarrollador en Santa Cruz de la Sierra, Bolivia. Consultor TOTVS Protheus en Resultar Soluciones SRL desde octubre de 2025 y estudiante de Ingeniería de Sistemas en la Universidad NUR. Le apasionan los agentes de IA, MCP, las APIs y la lógica de negocio. Ahora está aprendiendo ingeniería de harness." src="assets/banner-claro.svg" width="100%">
+  <img alt="Retrato de Mario hecho de puntos rosas junto a mario.yml abierto en vim: Mario Alberto Pereyra Justiniano, desarrollador en Santa Cruz de la Sierra, Bolivia. Consultor TOTVS Protheus en Resultar Soluciones SRL desde octubre de 2025 y estudiante de Ingeniería de Sistemas en la Universidad NUR. Le apasionan los agentes de IA, MCP, las APIs y la lógica de negocio. Ahora está aprendiendo ingeniería de harness." src="assets/banner-claro.svg" width="100%">
 </picture>
 </p>
 
 ## `$ whoami`
-
-<img align="right" width="200" src="assets/retrato.svg" alt="Retrato de Mario hecho de puntos rosas sobre fondo oscuro: pelo ondulado, lentes de marco rectangular y camisa oscura.">
 
 Soy Mario, desarrollador de Santa Cruz de la Sierra, Bolivia. Estudio **Ingeniería de Sistemas** en la Universidad NUR y voy en 7.º semestre.
 

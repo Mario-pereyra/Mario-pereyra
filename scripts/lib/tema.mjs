@@ -3,7 +3,10 @@ export const TEMAS = {
 	oscuro: {
 		ventana: '#1d2021',
 		barra: '#282828',
-		lateral: '#1a1c1d',
+		foto: '#151113',
+		punto: '#e8616e',
+		brillo: '#ffb0b6',
+		fotoTenue: '#8a7378',
 		seleccion: '#32302f',
 		borde: '#3c3836',
 		texto: '#ebdbb2',
@@ -23,7 +26,10 @@ export const TEMAS = {
 	claro: {
 		ventana: '#fbf1c7',
 		barra: '#f2e5bc',
-		lateral: '#f5ebc1',
+		foto: '#151113',
+		punto: '#e8616e',
+		brillo: '#ffb0b6',
+		fotoTenue: '#8a7378',
 		seleccion: '#ebdbb2',
 		borde: '#d5c4a1',
 		texto: '#3c3836',

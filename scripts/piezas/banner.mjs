@@ -1,12 +1,16 @@
-// Banner: una ventana de vim con el árbol de archivos a la izquierda y mario.yml abierto.
-// La última línea se escribe sola y el cursor parpadea; sin animación se lee completa.
+// Banner: una ventana de vim partida en dos. A la izquierda, mario.png (el retrato en semitono);
+// a la derecha, mario.yml. La última línea se escribe sola y el cursor parpadea; sin animación se lee completa.
 import { documento, r2 } from '../lib/svg.mjs';
+import { altoRetrato, semitono } from './retrato.mjs';
 
 const W = 880;
-const H = 392;
 const BARRA = 34; // barra de título
 const ESTADO = 28; // línea de estado de vim
-const LATERAL = 220; // ancho del árbol de archivos
+const LATERAL = 290; // panel del retrato
+const FOTO = 250; // ancho del retrato
+const CABECERA = 30; // rótulo del panel del retrato
+const ALTO_FOTO = altoRetrato(FOTO);
+const H = BARRA + CABECERA + ALTO_FOTO + 16 + ESTADO;
 const TAM = 13;
 const AVANCE = TAM * 0.6; // Geist Mono: 0,6 em por carácter
 const INTERLINEA = 22;
@@ -30,28 +34,11 @@ const YML = [
 	[k('trabajo'), x(':')],
 	[x('  '), k('empresa'), x(': '), v('Resultar Soluciones SRL')],
 	[x('  '), k('puesto'), x(': '), v('consultor TOTVS Protheus'), c('  # desde oct. 2025')],
-	[k('estudio'), x(': '), v('Ingeniería de Sistemas, Universidad NUR'), c('  # 7.º semestre')],
+	[k('estudio'), x(': '), v('Ingeniería de Sistemas, NUR'), c('  # 7.º semestre')],
 	[],
 	lista('me_apasiona', ['agentes de IA', 'MCP', 'APIs', 'lógica de negocio']),
 	lista('rumbo', ['backend', 'forward deployed engineering']),
 	[k('ahora'), x(': ')], // el valor se escribe solo
-];
-
-// Árbol de archivos: [sangría, tipo, nombre]. tipo: raiz | abierta | cerrada | rama | fin | archivo | actual
-const ARBOL = [
-	[0, 'raiz', '~/mario/'],
-	[0, 'cerrada', '.agents/'],
-	[0, 'abierta', 'proyectos/'],
-	[1, 'rama', 'vintage/'],
-	[1, 'rama', 'protheus-db-mcp/'],
-	[1, 'rama', 'quiniela-2026/'],
-	[1, 'fin', 'cine-reservas/'],
-	[0, 'abierta', 'aprendiendo/'],
-	[1, 'rama', 'contexto.md'],
-	[1, 'rama', 'harness.md'],
-	[1, 'fin', 'evals.md'],
-	[0, 'archivo', 'README.md'],
-	[0, 'actual', 'mario.yml'],
 ];
 
 const L = ESCRIBE.length * AVANCE;
@@ -60,6 +47,8 @@ const css = `
 @keyframes escribe{0%,10%{transform:translateX(-${r2(L)}px)}48%,100%{transform:translateX(0)}}
 .parpadea{animation:parpadea 1.1s steps(1,end) infinite}
 @keyframes parpadea{0%{opacity:1}50%{opacity:0}}
+.barrido{animation:barrido 7s ease-in-out infinite}
+@keyframes barrido{0%{transform:translateY(-20px);opacity:0}8%{opacity:1}55%{transform:translateY(${ALTO_FOTO}px);opacity:1}60%,100%{transform:translateY(${ALTO_FOTO}px);opacity:0}}
 `;
 
 export function banner(tema, nombreTema) {
@@ -69,44 +58,38 @@ export function banner(tema, nombreTema) {
 		alto: H,
 		tema,
 		css,
-		titulo: 'mario.yml abierto en vim',
-		descripcion: `Mario Alberto Pereyra Justiniano, desarrollador en Santa Cruz de la Sierra, Bolivia. Consultor TOTVS Protheus en Resultar Soluciones SRL desde octubre de 2025 y estudiante de 7.º semestre de Ingeniería de Sistemas en la Universidad NUR. Le apasionan los agentes de IA, MCP, las APIs y la lógica de negocio; su rumbo es backend y forward deployed engineering. Ahora: ${ESCRIBE}.`,
+		titulo: 'Retrato de Mario y mario.yml abiertos en vim',
+		descripcion: `A la izquierda, un retrato de Mario hecho de puntos rosas: pelo ondulado, lentes de marco rectangular y camisa oscura. A la derecha, mario.yml: Mario Alberto Pereyra Justiniano, desarrollador en Santa Cruz de la Sierra, Bolivia. Consultor TOTVS Protheus en Resultar Soluciones SRL desde octubre de 2025 y estudiante de 7.º semestre de Ingeniería de Sistemas en la Universidad NUR. Le apasionan los agentes de IA, MCP, las APIs y la lógica de negocio; su rumbo es backend y forward deployed engineering. Ahora: ${ESCRIBE}.`,
 		dibujar(api) {
 			const color = (nombre) => `style="fill:var(--${nombre})"`;
 			const mono = (texto, x0, y, nombre, peso = 'mono', tam = TAM) => api.texto(texto, { x: x0, y, peso, tam, atributos: color(nombre) });
 			const partes = [];
 			const R = 10;
 
-			// Ventana, barra de título y línea de estado.
+			// Ventana, barra de título, panel del retrato y línea de estado.
 			api.def(`<clipPath id="${api.id('ventana')}"><rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="${R - 1}"/></clipPath>`);
 			partes.push(`<g clip-path="url(#${api.id('ventana')})">`);
 			partes.push(`<rect width="${W}" height="${H}" ${color('ventana')}/>`);
 			partes.push(`<rect width="${W}" height="${BARRA}" ${color('barra')}/>`);
-			partes.push(`<rect y="${BARRA}" width="${LATERAL}" height="${H - BARRA - ESTADO}" ${color('lateral')}/>`);
+			partes.push(`<rect y="${BARRA}" width="${LATERAL}" height="${H - BARRA - ESTADO}" ${color('foto')}/>`);
 			partes.push(`<rect y="${H - ESTADO}" width="${W}" height="${ESTADO}" ${color('barra')}/>`);
 			partes.push('</g>');
 			partes.push(`<path d="M0 ${BARRA + 0.5}H${W}M${LATERAL + 0.5} ${BARRA}V${H - ESTADO}M0 ${H - ESTADO - 0.5}H${W}" fill="none" style="stroke:var(--borde)"/>`);
 			partes.push(`<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="${R}" fill="none" style="stroke:var(--borde)"/>`);
 			['rojo', 'amarillo', 'verde'].forEach((n, i) => partes.push(`<circle cx="${20 + i * 18}" cy="${BARRA / 2}" r="5.5" ${color(n)}/>`));
-			partes.push(api.texto('vim ~/mario/mario.yml', { x: W / 2, y: BARRA / 2 + 4, peso: 'mono', tam: 12, ancla: 'middle', atributos: color('comentario') }));
+			partes.push(api.texto('vim -O mario.png mario.yml', { x: W / 2, y: BARRA / 2 + 4, peso: 'mono', tam: 12, ancla: 'middle', atributos: color('comentario') }));
 
-			// Árbol de archivos.
-			ARBOL.forEach(([sangria, tipo, nombre], i) => {
-				const y = PRIMERA + i * INTERLINEA;
-				if (tipo === 'actual') partes.push(`<rect x="1" y="${y - 15}" width="${LATERAL - 1}" height="${INTERLINEA}" ${color('seleccion')}/>`);
-				if (tipo === 'raiz') return partes.push(mono(nombre, 16, y, 'clave', 'monoMedium'));
-				if (tipo === 'abierta') partes.push(`<path d="M16 ${y - 7.5}h8l-4 5z" ${color('tenue')}/>`);
-				if (tipo === 'cerrada') partes.push(`<path d="M17.5 ${y - 9.5}l5 4-5 4z" ${color('tenue')}/>`);
-				if (tipo === 'rama' || tipo === 'fin') {
-					// Guía del árbol: tramo vertical hasta el hijo y una muesca hacia el nombre.
-					const arriba = y - INTERLINEA - 5 + (ARBOL[i - 1][1] === 'abierta' ? 6 : 0);
-					partes.push(`<path d="M20.5 ${arriba}V${y - 4.5}${tipo === 'rama' ? `M20.5 ${y - 4.5}V${y + 6}` : ''}M20.5 ${y - 4.5}H30" fill="none" style="stroke:var(--borde)"/>`);
-					partes.push(mono(nombre, 38, y, nombre.endsWith('/') ? 'texto' : 'comentario'));
-					return;
-				}
-				const esCarpeta = tipo === 'abierta' || tipo === 'cerrada';
-				partes.push(mono(nombre, 30 + sangria * 18, y, esCarpeta ? 'carpeta' : tipo === 'actual' ? 'texto' : 'comentario', tipo === 'actual' ? 'monoMedium' : 'mono'));
-			});
+			// Panel del retrato: rótulo, puntos, barrido de escáner y miras en las esquinas.
+			const xFoto = (LATERAL - FOTO) / 2;
+			const yFoto = BARRA + CABECERA;
+			partes.push(mono('mario.png', xFoto, BARRA + 20, 'fotoTenue', 'mono', 11));
+			partes.push(api.texto(`${FOTO}×${ALTO_FOTO} · semitono`, { x: xFoto + FOTO, y: BARRA + 20, peso: 'mono', tam: 11, ancla: 'end', atributos: color('fotoTenue') }));
+			api.def(`<clipPath id="${api.id('foto')}"><rect x="${xFoto}" y="${yFoto}" width="${FOTO}" height="${ALTO_FOTO}"/></clipPath>`);
+			api.def(`<linearGradient id="${api.id('luz')}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--brillo)" stop-opacity="0"/><stop offset=".5" style="stop-color:var(--brillo)" stop-opacity=".14"/><stop offset="1" style="stop-color:var(--brillo)" stop-opacity="0"/></linearGradient>`);
+			partes.push(`<g clip-path="url(#${api.id('foto')})">${semitono({ x: xFoto, y: yFoto, ancho: FOTO })}<rect class="barrido" x="${xFoto}" y="${yFoto}" width="${FOTO}" height="16" fill="url(#${api.id('luz')})"/></g>`);
+			for (const mx of [xFoto + 2, xFoto + FOTO - 18]) {
+				partes.push(`<g fill="none" style="stroke:var(--punto)" stroke-width=".8" opacity=".75"><circle cx="${mx + 8}" cy="${yFoto + 10}" r="3"/><path d="M${mx} ${yFoto + 10}h16M${mx + 8} ${yFoto + 2}v16"/></g>`);
+			}
 
 			// mario.yml con números de línea; la línea actual va resaltada.
 			const xNumero = LATERAL + 34;
