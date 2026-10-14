@@ -38,6 +38,7 @@ Quiero crecer hacia backend y *Forward Deployed Engineering*: trabajar cerca del
 
 ## `$ cat stack.yaml`
 
+<!-- stack:inicio -->
 <table>
   <tr>
     <th width="20%"></th>
@@ -46,40 +47,101 @@ Quiero crecer hacia backend y *Forward Deployed Engineering*: trabajar cerca del
   </tr>
   <tr>
     <td><code>lenguajes:</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/lenguajes-ya-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/lenguajes-ya-claro.svg"><img alt="TypeScript, JavaScript, Java, HTML y CSS" src="assets/stack/lenguajes-ya-claro.svg" height="36"></picture><br><code>AdvPL</code> <code>SQL</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/lenguajes-aprendiendo-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/lenguajes-aprendiendo-claro.svg"><img alt="Python, Go, Rust y Kotlin" src="assets/stack/lenguajes-aprendiendo-claro.svg" height="36"></picture></td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/ts-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/ts-claro.svg"><img src="assets/iconos/ts-claro.svg" alt="TypeScript" title="TypeScript" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/js-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/js-claro.svg"><img src="assets/iconos/js-claro.svg" alt="JavaScript" title="JavaScript" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/java-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/java-claro.svg"><img src="assets/iconos/java-claro.svg" alt="Java" title="Java" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/html-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/html-claro.svg"><img src="assets/iconos/html-claro.svg" alt="HTML" title="HTML" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/css-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/css-claro.svg"><img src="assets/iconos/css-claro.svg" alt="CSS" title="CSS" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/advpl-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/advpl-claro.svg"><img src="assets/iconos/advpl-claro.svg" alt="AdvPL" title="AdvPL" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/sql-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/sql-claro.svg"><img src="assets/iconos/sql-claro.svg" alt="SQL" title="SQL" width="36" height="36"></picture>
+    </td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/python-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/python-claro.svg"><img src="assets/iconos/python-claro.svg" alt="Python" title="Python" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/go-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/go-claro.svg"><img src="assets/iconos/go-claro.svg" alt="Go" title="Go" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/rust-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/rust-claro.svg"><img src="assets/iconos/rust-claro.svg" alt="Rust" title="Rust" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/kotlin-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/kotlin-claro.svg"><img src="assets/iconos/kotlin-claro.svg" alt="Kotlin" title="Kotlin" width="36" height="36"></picture>
+    </td>
   </tr>
   <tr>
     <td><code>backend:</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/backend-ya-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/backend-ya-claro.svg"><img alt="Node.js y Express" src="assets/stack/backend-ya-claro.svg" height="36"></picture><br><code>Sequelize</code> <code>TypeORM</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/backend-aprendiendo-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/backend-aprendiendo-claro.svg"><img alt="NestJS y Prisma" src="assets/stack/backend-aprendiendo-claro.svg" height="36"></picture></td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/nodejs-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/nodejs-claro.svg"><img src="assets/iconos/nodejs-claro.svg" alt="Node.js" title="Node.js" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/express-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/express-claro.svg"><img src="assets/iconos/express-claro.svg" alt="Express" title="Express" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/sequelize-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/sequelize-claro.svg"><img src="assets/iconos/sequelize-claro.svg" alt="Sequelize" title="Sequelize" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/typeorm-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/typeorm-claro.svg"><img src="assets/iconos/typeorm-claro.svg" alt="TypeORM" title="TypeORM" width="36" height="36"></picture>
+    </td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/nestjs-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/nestjs-claro.svg"><img src="assets/iconos/nestjs-claro.svg" alt="NestJS" title="NestJS" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/prisma-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/prisma-claro.svg"><img src="assets/iconos/prisma-claro.svg" alt="Prisma" title="Prisma" width="36" height="36"></picture>
+    </td>
   </tr>
   <tr>
     <td><code>frontend:</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/frontend-ya-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/frontend-ya-claro.svg"><img alt="React" src="assets/stack/frontend-ya-claro.svg" height="36"></picture><br><code>React Router</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/frontend-aprendiendo-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/frontend-aprendiendo-claro.svg"><img alt="Next.js, Angular y Tailwind CSS" src="assets/stack/frontend-aprendiendo-claro.svg" height="36"></picture></td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/react-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/react-claro.svg"><img src="assets/iconos/react-claro.svg" alt="React" title="React" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/reactrouter-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/reactrouter-claro.svg"><img src="assets/iconos/reactrouter-claro.svg" alt="React Router" title="React Router" width="36" height="36"></picture>
+    </td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/nextjs-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/nextjs-claro.svg"><img src="assets/iconos/nextjs-claro.svg" alt="Next.js" title="Next.js" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/angular-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/angular-claro.svg"><img src="assets/iconos/angular-claro.svg" alt="Angular" title="Angular" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/tailwind-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/tailwind-claro.svg"><img src="assets/iconos/tailwind-claro.svg" alt="Tailwind CSS" title="Tailwind CSS" width="36" height="36"></picture>
+    </td>
   </tr>
   <tr>
     <td><code>datos:</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/datos-ya-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/datos-ya-claro.svg"><img alt="PostgreSQL" src="assets/stack/datos-ya-claro.svg" height="36"></picture><br><code>SQL Server</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/datos-aprendiendo-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/datos-aprendiendo-claro.svg"><img alt="MySQL y Redis" src="assets/stack/datos-aprendiendo-claro.svg" height="36"></picture></td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/postgres-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/postgres-claro.svg"><img src="assets/iconos/postgres-claro.svg" alt="PostgreSQL" title="PostgreSQL" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/sqlserver-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/sqlserver-claro.svg"><img src="assets/iconos/sqlserver-claro.svg" alt="SQL Server" title="SQL Server" width="36" height="36"></picture>
+    </td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/mysql-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/mysql-claro.svg"><img src="assets/iconos/mysql-claro.svg" alt="MySQL" title="MySQL" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/redis-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/redis-claro.svg"><img src="assets/iconos/redis-claro.svg" alt="Redis" title="Redis" width="36" height="36"></picture>
+    </td>
   </tr>
   <tr>
     <td><code>devops_y_pruebas:</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/devops-ya-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/devops-ya-claro.svg"><img alt="Git, Docker, Cloudflare y Vercel" src="assets/stack/devops-ya-claro.svg" height="36"></picture></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/devops-aprendiendo-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/devops-aprendiendo-claro.svg"><img alt="GitHub Actions, Vitest y Jest" src="assets/stack/devops-aprendiendo-claro.svg" height="36"></picture></td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/git-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/git-claro.svg"><img src="assets/iconos/git-claro.svg" alt="Git" title="Git" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/docker-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/docker-claro.svg"><img src="assets/iconos/docker-claro.svg" alt="Docker" title="Docker" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/cloudflare-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/cloudflare-claro.svg"><img src="assets/iconos/cloudflare-claro.svg" alt="Cloudflare" title="Cloudflare" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/vercel-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/vercel-claro.svg"><img src="assets/iconos/vercel-claro.svg" alt="Vercel" title="Vercel" width="36" height="36"></picture>
+    </td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/githubactions-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/githubactions-claro.svg"><img src="assets/iconos/githubactions-claro.svg" alt="GitHub Actions" title="GitHub Actions" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/vitest-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/vitest-claro.svg"><img src="assets/iconos/vitest-claro.svg" alt="Vitest" title="Vitest" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/jest-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/jest-claro.svg"><img src="assets/iconos/jest-claro.svg" alt="Jest" title="Jest" width="36" height="36"></picture>
+    </td>
   </tr>
   <tr>
     <td><code>ia:</code></td>
-    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/agentes-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/agentes-claro.svg"><img alt="Agentes de codificación: Claude Code, Codex, OpenCode y Pi" title="Claude Code · Codex · OpenCode · Pi" src="assets/stack/agentes-claro.svg" height="36"></picture><br><code>Claude Code</code> <code>Codex</code> <code>OpenCode</code> <code>Pi</code><br><code>servidores MCP</code> <code>APIs de DeepSeek y GLM</code></td>
-    <td><code>ingeniería de contexto</code> <code>harness</code> <code>pruebas de agentes</code></td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/claude-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/claude-claro.svg"><img src="assets/iconos/claude-claro.svg" alt="Claude Code" title="Claude Code" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/codex-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/codex-claro.svg"><img src="assets/iconos/codex-claro.svg" alt="Codex" title="Codex" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/opencode-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/opencode-claro.svg"><img src="assets/iconos/opencode-claro.svg" alt="OpenCode" title="OpenCode" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/pi-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/pi-claro.svg"><img src="assets/iconos/pi-claro.svg" alt="Pi" title="Pi" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/mcp-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/mcp-claro.svg"><img src="assets/iconos/mcp-claro.svg" alt="Servidores MCP" title="Servidores MCP" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/deepseek-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/deepseek-claro.svg"><img src="assets/iconos/deepseek-claro.svg" alt="API de DeepSeek" title="API de DeepSeek" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/glm-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/glm-claro.svg"><img src="assets/iconos/glm-claro.svg" alt="API de GLM (Zhipu)" title="API de GLM (Zhipu)" width="36" height="36"></picture>
+    </td>
+    <td>
+      <code>ingeniería de contexto</code>
+      <code>harness</code>
+      <code>pruebas de agentes</code>
+    </td>
   </tr>
   <tr>
     <td><code>erp:</code></td>
-    <td><code>TOTVS Protheus</code> <code>Facturación (SIGAFAT)</code></td>
-    <td><code>Compras (SIGACOM)</code></td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/totvs-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/totvs-claro.svg"><img src="assets/iconos/totvs-claro.svg" alt="TOTVS Protheus" title="TOTVS Protheus" width="36" height="36"></picture>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/sigafat-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/sigafat-claro.svg"><img src="assets/iconos/sigafat-claro.svg" alt="Facturación (SIGAFAT)" title="Facturación (SIGAFAT)" width="36" height="36"></picture>
+    </td>
+    <td>
+      <picture><source media="(prefers-color-scheme: dark)" srcset="assets/iconos/sigacom-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/iconos/sigacom-claro.svg"><img src="assets/iconos/sigacom-claro.svg" alt="Compras (SIGACOM)" title="Compras (SIGACOM)" width="36" height="36"></picture>
+    </td>
   </tr>
 </table>
+<!-- stack:fin -->
 
 ## `$ connect`
 
