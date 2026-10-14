@@ -1,15 +1,19 @@
-// Genera el banner de assets/ en tema oscuro y claro: `npm run assets`.
+// Genera el banner y el retrato de assets/ en tema oscuro y claro: `npm run assets`.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { TEMAS } from './lib/tema.mjs';
 import { banner } from './piezas/banner.mjs';
+import { retrato } from './piezas/retrato.mjs';
 
 const salida = join(dirname(fileURLToPath(import.meta.url)), '..', 'assets');
 mkdirSync(salida, { recursive: true });
 
-for (const [tema, paleta] of Object.entries(TEMAS)) {
-	const svg = banner(paleta, tema);
-	writeFileSync(join(salida, `banner-${tema}.svg`), svg);
-	console.log(`banner-${tema}.svg  ${(Buffer.byteLength(svg) / 1024).toFixed(1)} KB`);
+function escribir(nombre, svg) {
+	writeFileSync(join(salida, nombre), svg);
+	console.log(`${nombre}  ${(Buffer.byteLength(svg) / 1024).toFixed(1)} KB`);
 }
+
+for (const [tema, paleta] of Object.entries(TEMAS)) escribir(`banner-${tema}.svg`, banner(paleta, tema));
+// El retrato es igual en los dos temas.
+escribir('retrato.svg', retrato());

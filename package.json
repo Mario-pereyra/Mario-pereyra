@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "assets": "node scripts/generar.mjs"
+    "assets": "node scripts/generar.mjs",
+    "iconos": "node scripts/iconos.mjs"
   },
   "devDependencies": {
     "geist": "^1.7.2",
