@@ -71,7 +71,7 @@ Quiero crecer hacia backend y *Forward Deployed Engineering*: trabajar cerca del
   </tr>
   <tr>
     <td><code>ia:</code></td>
-    <td><code>Claude Code</code> <code>Codex</code> <code>OpenCode</code> <code>Pi agent</code> <code>servidores MCP</code> <code>APIs de DeepSeek y GLM</code></td>
+    <td><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack/agentes-oscuro.svg"><source media="(prefers-color-scheme: light)" srcset="assets/stack/agentes-claro.svg"><img alt="Agentes de codificación: Claude Code, Codex, OpenCode y Pi" title="Claude Code · Codex · OpenCode · Pi" src="assets/stack/agentes-claro.svg" height="36"></picture><br><code>Claude Code</code> <code>Codex</code> <code>OpenCode</code> <code>Pi</code><br><code>servidores MCP</code> <code>APIs de DeepSeek y GLM</code></td>
     <td><code>ingeniería de contexto</code> <code>harness</code> <code>pruebas de agentes</code></td>
   </tr>
   <tr>
