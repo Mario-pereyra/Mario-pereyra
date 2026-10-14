@@ -30,11 +30,11 @@ Quiero crecer hacia backend y *Forward Deployed Engineering*: trabajar cerca del
 
 ## `$ ls ~/proyectos`
 
-- **[Vintage Secret's](https://github.com/Mario-pereyra/vintage)**: catálogo e inventario para el emprendimiento de mi familia. Está en producción: [verlo](https://vintage.marioelprogamer710.workers.dev).
+- **[Vintage Secret's](https://github.com/mario-pereyra/vintage)**: catálogo e inventario para el emprendimiento de mi familia. Está en producción: [verlo](https://vintage.marioelprogamer710.workers.dev).
 - **protheus-db-mcp**: servidor MCP para que los agentes de IA consulten bases de Protheus sin poder escribir en ellas. Código privado.
 - **[Quiniela Mundial 2026](https://quinela-mundialera-frontend.vercel.app)**: pronósticos del Mundial, proyecto universitario en equipo.
-- **[Cine Reservas](https://github.com/Mario-pereyra/practico4)**: reserva de asientos de cine, proyecto universitario.
-- **[Impulsame](https://github.com/Mario-pereyra/Proyecto_Final_Web_02-2025)**: plataforma de crowdfunding, proyecto universitario.
+- **[Cine Reservas](https://github.com/mario-pereyra/practico4)**: reserva de asientos de cine, proyecto universitario.
+- **[Impulsame](https://github.com/mario-pereyra/Proyecto_Final_Web_02-2025)**: plataforma de crowdfunding, proyecto universitario.
 
 ## `$ cat stack.yaml`
 
