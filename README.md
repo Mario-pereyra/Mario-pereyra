@@ -148,7 +148,7 @@ Quiero crecer hacia backend y *Forward Deployed Engineering*: trabajar cerca del
 <p>
 <a href="https://mario-pereyra.github.io"><img alt="Portafolio" src="assets/contacto/portafolio.svg"></a>&nbsp;
 <a href="https://mario-pereyra.github.io/cv/CV_Mario_Pereyra_Justiniano.pdf"><img alt="Descargar CV" src="assets/contacto/cv.svg"></a>&nbsp;
-<a href="https://www.linkedin.com/in/mario-pereyra-justiniano-86b205304"><img alt="LinkedIn" src="assets/contacto/linkedin.svg"></a>&nbsp;
+<a href="https://www.linkedin.com/in/mario-pereyra-justiniano"><img alt="LinkedIn" src="assets/contacto/linkedin.svg"></a>&nbsp;
 <a href="mailto:mario1w3p.j@gmail.com"><img alt="Correo: mario1w3p.j@gmail.com" src="assets/contacto/correo.svg"></a>
 </p>
 
